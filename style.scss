@@ -19,9 +19,9 @@ tag: woocomerce , book4book, happe
 @import 'assets/css/base/base';
 @import 'assets/css/base/bottom';
 //slider;
-@import 'assets/node_modules/owl.carousel/src/scss/_animate';
-@import 'assets/node_modules/owl.carousel/src/scss/owl.carousel';
-@import 'assets/node_modules/owl.carousel/src/scss/owl.theme.default';
+@import 'assets/owl/src/scss/_animate';
+@import 'assets/owl/src/scss/owl.carousel';
+@import 'assets/owl/src/scss/owl.theme.default';
 //Components 
 @import 'assets/css/component/header';
 @import 'assets/css/component/footer';

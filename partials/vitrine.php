@@ -37,7 +37,12 @@
         </div>
         <div class="row">
             <ul class="products">
-            <?php foreach($pageposts as $pagepost){ ?>
+            <?php foreach($pageposts as $pagepost){ 
+                  $product_obj = wc_get_product(intval( get_the_ID()));
+                  echo '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%';
+                   var_dump($product_obj);
+                  die();
+                ?>
                 <li>
                     <article>
                         <div class="img-display">
