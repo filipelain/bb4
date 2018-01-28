@@ -1,0 +1,69 @@
+.propaganda-interna {
+    width: 100%;
+    height: 418px;
+    padding: 43px 0px;
+    %margin-auto {
+        margin: 0 auto;
+    }
+    .painel {
+        height: 332px;
+        width: 465px;
+        border-radius: 3px;
+        background: $painel-bg;
+        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.06);
+        @extend %margin-auto;
+        @extend %flex;
+        @extend %flex-center-around;
+        flex-direction: column;
+        padding: 10px;
+        .icon {
+            width: 100%;
+            text-align: center;
+            padding: 0px;
+            img {
+                width: 50%;
+                height: auto;
+                &[alt="parceria"] {
+                    width: 20%;
+                }
+            }
+        }
+        .info {
+            &>.titulo {
+                height: 57px;
+                width: 385px;
+                color: #1A1718;
+                font-family: Oswald;
+                font-size: 22px;
+                line-height: 28px;
+                @extend %margin-auto;
+            }
+            &>.description {
+                height: 57px;
+                width: 385px;
+                color: #1A1718;
+                font-family: "Open Sans";
+                font-size: 13px;
+                line-height: 19px;
+                @extend %margin-auto;
+                margin-top: 15px;
+            }
+        }
+        .bt {
+            @include button(1.9%, 18.39%);
+            @extend %margin-auto;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.adsense-propaganda {
+    width: 100%;
+    padding: 20px 0;
+    .propaganda {
+        background: #4c4d4d;
+        height: 97px;
+        width: 940px;
+        margin: 0 auto;
+    }
+}

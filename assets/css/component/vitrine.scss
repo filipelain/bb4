@@ -1,0 +1,88 @@
+.vitrine {
+    height: 428px;
+    width: 100%;
+    .section-title {
+        height: 28px;
+        width: 498px;
+        color: #1A1718;
+        font-family: Oswald;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    ul.products {
+        @extend %flex;
+        list-style: none;
+        padding: 0 50px;
+        height: 365px; // extras rules;
+        justify-content: flex-start;
+        li {
+            width: 180px;
+            height: 364px;
+            padding: 19px 0px;
+            margin: 0;
+            margin-left: 15px;
+            background: $branco-principal;
+            box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2);
+            @extend %border-radius-3;
+            &:first-child{
+                margin-left: 0;
+            }
+            .details {
+                @extend %flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+                padding: 5px 2px;
+                justify-content: space-around;
+                %w-160 {
+                    width: 159px;
+                }
+                h3 {
+                    padding: 0;
+                    margin: 0;
+                    margin-top: 4px;
+                    @extend %w-160;
+                    height: 60px;
+                    text-overflow: ellipsis
+                }
+                .price {
+                    @extend %w-160;
+                    .price-value,.woocommerce-Price-currencySymbol{
+                        height: 24px;
+                        width: 51px;
+                        color: $principal-color;
+                        font-family: Oswald;
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .img-display {
+                width: 112px;
+                height: 174px;
+                background: rgb(68, 68, 68);
+                margin: 0 auto;
+                overflow: hidden;
+                .img{
+                    height: 174px;
+                    width: 112px;
+                    object-fit: cover;
+                }
+            }
+            .titulo-livro,
+            .qtd {
+                color: #1A1718;
+                font-family: "Open Sans";
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 19px;
+            }
+            .bt-detalhes {
+                @extend .button-m;
+                position: relative;
+                top: 13px;
+                left: 8px;
+            }
+        }
+    }
+}

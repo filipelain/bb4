@@ -1,0 +1,32 @@
+/*!
+Theme Name:     book4book
+Theme URI:    	http://book4book.com.br  
+Author:         Happe  
+Author URI:     http://happe.mobi
+Description:  	O tema book4book é desenvolvido para woocomerce !
+Version:      	0.5       
+License:      	GNU General Public License v2 or later
+License  :  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront child
+tag: woocomerce , book4book, happe
+*/
+
+//layout
+@import 'assets/css/base/normalize';
+@import 'assets/css/base/bootstrap';
+@import 'assets/css/base/font-awesome';
+@import 'assets/css/base/color';
+@import 'assets/css/base/base';
+@import 'assets/css/base/bottom';
+//slider;
+@import 'assets/node_modules/owl.carousel/src/scss/_animate';
+@import 'assets/node_modules/owl.carousel/src/scss/owl.carousel';
+@import 'assets/node_modules/owl.carousel/src/scss/owl.theme.default';
+//Components 
+@import 'assets/css/component/header';
+@import 'assets/css/component/footer';
+@import 'assets/css/component/vitrine';
+@import 'assets/css/component/propagandaPainel';
+@import'assets/css/component/owl.custom';
+//Wc-components
+@import 'assets/css/wcomerce/index';

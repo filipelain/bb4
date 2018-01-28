@@ -1,0 +1,50 @@
+// Global configuration;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,500,700');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background: $body-color;
+}
+
+
+a{
+    color: initial;
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+
+%border-radius-3{
+    border-radius: 3px;
+}
+
+%flex-center-around{
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+.modal-content{
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-radius: 0;
+    border: none;
+}

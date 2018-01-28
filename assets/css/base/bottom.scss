@@ -1,0 +1,31 @@
+$branco-principal: #fff;
+
+@mixin button($height, $width) {
+    min-height: $height;
+    min-width: $width;
+    padding: 13px 10px;
+    @extend %border-radius-3;
+    background-color: $principal-color;
+    color: $branco-principal;
+    &:hover{
+        text-decoration: none;
+        color: $branco-principal;
+        background: $principal-ligth;
+
+    }
+}
+
+.button-xl {
+    @include button(40px, 98px);
+}
+
+.button-m {
+    @include button(32px, 64px);
+}
+
+.filter {
+    border: 1px solid #585858;
+    background-color: #FEFEFE;
+    @extend %border-radius-3;
+    box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+}

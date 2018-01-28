@@ -1,0 +1,94 @@
+%wc-link-login {
+    color: $principal-color;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+.wc-login {
+    position: relative;
+    width: 600px;
+    min-height: 345px;
+    margin: 0 auto;
+    padding: 0;
+    @extend %border-radius-3;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    %card{
+        overflow: hidden;
+        position: absolute;
+        top:0;
+        left: 0;
+        width: inherit;
+        height: inherit;
+        backface-visibility: hidden;
+        transition: 0.9s;
+        box-shadow: 0px 0px 4px rgba(#221E1F, 0.5);
+        background: #fff;
+    }
+    .login{
+        @extend %card;
+    }
+    .cadastro{
+       @extend %card;
+    }
+    .is-active{
+        position: relative;
+    }
+    .not_active{
+        transform: rotateY(180deg);
+
+    }
+    .wc-titulo {
+        background: rgba(34, 30, 31, 0.801);
+        color: #fff;
+        margin: 0;
+        margin-bottom: 13px;
+        text-align: left;
+        padding: 13px 34px;
+        @extend %flex;
+        justify-content: space-between;
+    }
+    .wc-form {
+        margin: 1px 34px;
+    }
+    .wc-form-item {
+        width: 100%;
+        margin: 25px 0;
+        label {
+            display: block;
+            font-size: 13px;
+        }
+        .wc-input:not( [type="checkbox"]) {
+            border: 1px solid #585858;
+            @extend %border-radius-3;
+            padding: 2px 8px;
+            height: 32px;
+            box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+            width: 40%;
+            &[name="username"], &#reg_email {
+                width: 80%;
+            }
+        }
+    }
+    .wc-lost-password {
+        @extend %wc-link-login;
+        margin-left: 9%;
+    }
+    .wc-login-bt {
+        border: none;
+        @extend .button-xl;
+        text-transform: uppercase;
+        font-family: Oswald;
+        font-size: 16px;
+    }
+    .bt-action {
+        @extend %flex;
+        justify-content: space-between;
+        align-items: baseline;
+        a {
+            @extend %wc-link-login;
+        }
+    }
+}

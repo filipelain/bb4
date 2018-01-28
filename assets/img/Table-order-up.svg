@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Table-order-up</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="#-S01---Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="S01-01-01---Home" transform="translate(-566.000000, -1958.000000)" fill="#FEFEFE">
+            <g id="Components/Button-Top" transform="translate(557.000000, 1946.000000)">
+                <path d="M15.2797203,19.8640995 C15.2097902,19.9395998 15.0979021,20 15,20 C14.9020979,20 14.7902098,19.9546998 14.7202797,19.8640995 L9.12587413,13.8240791 C9.05594406,13.7485788 9,13.6277784 9,13.5220781 C9,13.4163777 9.04195804,13.2955773 9.12587413,13.220077 L10.0825195,12.1359005 C10.1524496,12.0604002 10.2503517,12 10.3622398,12 C10.4601419,12 10.57203,12.0453002 10.6419601,12.1359005 L15,16.5798384 L19.3659096,12.1359005 C19.4358397,12.0604002 19.5477278,12 19.6456299,12 C19.743532,12 19.8554201,12.0453002 19.9253502,12.1359005 L20.8741259,13.220077 C20.9440559,13.2955773 21,13.4163777 21,13.5220781 C21,13.6277784 20.9440559,13.7485788 20.8741259,13.8240791 L15.2797203,19.8640995 Z" id="Icons/Table-order-up" transform="translate(15.000000, 16.000000) scale(-1, -1) translate(-15.000000, -16.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

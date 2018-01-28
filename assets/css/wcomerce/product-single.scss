@@ -1,0 +1,70 @@
+.wc-product-page {
+    background: $bg-alternative-color;
+    padding: 12px;
+}
+
+.wc-single-product {
+    height: 382px;
+    width: 941px;
+    background: $body-color;
+    margin: 0 auto;
+    padding: 18px;
+    @extend %flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    .media {
+        background: rgb(247, 247, 247);
+        width: 200px;
+        height: 239px;
+        .wc-img-tumb {
+            object-fit: contain;
+            width: 200px;
+            height: 239px;
+        }
+    }
+    .info {
+        width: 75%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        @extend %flex;
+        flex-flow: column nowrap;
+        .primary {
+            position: relative;
+            width: 100%; //max-height: 120px;
+            height: 40%;
+            .titulo {
+                height: 40%;
+            }
+            .sub {
+                height: 40%;
+                width: 100%;
+            }
+        }
+        .action {
+            height: 30%;
+            width: 100%;
+            overflow: hidden;
+            align-items: center;
+            @extend %flex;
+            .comprar {
+                a {
+                    @extend .button-xl;
+                }
+            }
+            .vender {}
+            .desejo {}
+        }
+        .secondary {
+            height: 100%;
+        }
+    }
+}
+.product-left{
+    width: 200px;
+}
+.info-img{
+    padding: 0 13px;
+    font-size: 11px;
+    margin: 8px 0;
+}
